@@ -51,6 +51,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.carriersetup.vzw_consent_page=true
 
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    dalvik.vm.systemuicompilerfilter=speed
+
 # Use gestures by default
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural;com.google.android.systemui.gxoverlay
